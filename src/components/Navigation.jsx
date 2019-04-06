@@ -108,21 +108,21 @@ const Navigation = () => (
         </Name>
         <SocialMedia>
           <a
-            href="https://www.instagram.com/marifel_angeles"
+            href="https://www.instagram.com/marifel_angeles/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
             <FaInstagram />
           </a>
-          <a
+          {/* <a
             href="https://www.behance.net/lekoarts"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Behance"
           >
             <FaBehance />
-          </a>
+          </a> */}
           <a
             href="https://dribbble.com/LeKoArts"
             target="_blank"
