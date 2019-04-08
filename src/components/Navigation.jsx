@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
-import { FaInstagram, FaBehance, FaDribbble } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import styled from 'styled-components'
 import config from '../../config/website'
 
@@ -107,29 +107,29 @@ const Navigation = () => (
           </Link>
         </Name>
         <SocialMedia>
-          <a
+          {/* <a
             href="https://www.instagram.com/marifel_angeles/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
             <FaInstagram />
-          </a>
-          {/* <a
-            href="https://www.behance.net/lekoarts"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Behance"
-          >
-            <FaBehance />
           </a> */}
           <a
-            href="https://dribbble.com/LeKoArts"
+            href="https://github.com/marifelangeles"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Dribbble"
+            aria-label="Github"
           >
-            <FaDribbble />
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marifelangeles/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
           </a>
         </SocialMedia>
       </Wrapper>
